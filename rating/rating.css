@@ -1,3 +1,10 @@
+body{
+  font-family: sans-serif;
+}
+/*
+Star rating CSS From Rogie's excellent pen: 
+@link http://codepen.io/rogie/pen/GIfqc/ 
+*/
 .star-rating {
   font-size: 0;
   white-space: nowrap;

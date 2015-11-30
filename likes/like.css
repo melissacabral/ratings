@@ -1,0 +1,18 @@
+body{
+	font-family: sans-serif;
+	cursor: pointer;
+}
+body.loading{
+	background-color: lightgray;
+}
+.likebutton{
+	background-color: yellow;
+	padding: .25em;
+	display: inline-block;
+}
+.like{
+	background-color: lightgreen;
+}
+.dislike{
+	background-color: lightsalmon;
+}

@@ -1,4 +1,4 @@
-<?php require('config.php');?>
+<?php require('../config.php');?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +23,7 @@
 <div id="display-area"></div>
 
 <script type="text/javascript">
-        $(":radio").change(function() { 
+        $(":radio").click(function() { 
             //get the value of the category they clicked
             var rating = this.value;      
             var thing_id = $(this).data("id");        
