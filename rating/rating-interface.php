@@ -11,6 +11,7 @@
 
 <form action="#" method="post">
 	<span class="star-rating">
+	<!-- 	data-id is the primary key for the thing (thing_id = 1)	 -->
 	  <input type="radio" name="rating" value="1" data-id="1"><i></i>
 	  <input type="radio" name="rating" value="2" data-id="1"><i></i>
 	  <input type="radio" name="rating" value="3" data-id="1"><i></i>
